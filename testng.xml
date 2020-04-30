@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Date Picker/testng.xml">
+        <classes>
+            <class name="datepicker.DatePickerTests">
+                <methods>
+                    <include name="pastDate"/>
+                    <include name="futureDate"/>
+                    <include name="currentDate"/>
+                    <include name="trickyDate"/>
+                </methods>
+            </class>
+        </classes>
+    </test></suite>
